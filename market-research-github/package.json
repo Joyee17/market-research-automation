@@ -1,0 +1,28 @@
+{
+  "name": "market-research-automation",
+  "version": "1.0.0",
+  "description": "McKinsey-standard automated market research report generator powered by Claude API",
+  "type": "module",
+  "main": "market_research_tool.mjs",
+  "scripts": {
+    "start": "node market_research_tool.mjs"
+  },
+  "keywords": [
+    "market-research",
+    "claude-api",
+    "anthropic",
+    "automation",
+    "competitive-intelligence",
+    "gtm-strategy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
+    "docx": "^9.0.0",
+    "pptxgenjs": "^3.12.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
