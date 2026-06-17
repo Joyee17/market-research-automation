@@ -1,0 +1,61 @@
+# ===================================
+# 敏感信息（绝对不能上传到GitHub）
+# ===================================
+.env
+.env.local
+*api_key*
+*API_KEY*
+config_local.py
+secrets.json
+
+# ===================================
+# Python
+# ===================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+*.egg-info/
+
+# ===================================
+# Node.js
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+
+# ===================================
+# 输出文件（生成的报告不需要进版本控制）
+# ===================================
+output_reports/
+*.docx
+*.pptx
+raw_output_*.json
+
+# 但保留示例输出（如果需要展示）
+!examples/sample_output.docx
+!examples/sample_output.pptx
+
+# ===================================
+# IDE / 编辑器
+# ===================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===================================
+# 日志文件
+# ===================================
+*.log
+logs/
